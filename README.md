@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Massivo5040/BrechoPlus.git
    ```
 
 2. **Navegue até o diretório do projeto:**
