@@ -23,7 +23,6 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
-   Substitua `seu-usuario/seu-repositorio` pelo nome de usuário e nome do repositório no GitHub.
 
 2. **Navegue até o diretório do projeto:**
 
