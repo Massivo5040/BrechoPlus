@@ -21,51 +21,69 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/Massivo5040/BrechoPlus.git
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+   Substitua `seu-usuario/seu-repositorio` pelo nome de usuário e nome do repositório no GitHub.
 
-Navegue até o diretório do projeto:
+2. **Navegue até o diretório do projeto:**
 
-cd seu-repositorio
+   ```bash
+   cd seu-repositorio
+   ```
 
-Instale as dependências:
+3. **Instale as dependências:**
 
-npm install  # ou yarn install
-Executando o Projeto
+   ```bash
+   npm install  # ou yarn install
+   ```
 
-As instruções a seguir dependem se o projeto usa Expo ou o React Native CLI. Verifique o package.json para identificar qual método usar.
+## Executando o Projeto
 
-Usando Expo:
+As instruções a seguir dependem se o projeto usa Expo ou o React Native CLI.  Verifique o `package.json` para identificar qual método usar.
 
-Inicie o projeto:
+**Usando Expo:**
 
-expo start
+1. Inicie o projeto:
 
-Um QR code será exibido no terminal. Escaneie-o com o aplicativo Expo Go no seu dispositivo móvel para executar o app. Você também pode executar em um simulador iOS ou Android diretamente pelo Expo Dev Client.
+   ```bash
+   expo start
+   ```
 
-Usando React Native CLI:
+2. Um QR code será exibido no terminal. Escaneie-o com o aplicativo Expo Go no seu dispositivo móvel para executar o app.  Você também pode executar em um simulador iOS ou Android diretamente pelo Expo Dev Client.
 
-Android:
 
-react-native run-android
+**Usando React Native CLI:**
 
-iOS:
+1. **Android:**
 
-react-native run-ios
+   ```bash
+   react-native run-android
+   ```
 
-Certifique-se de ter um simulador iOS aberto ou um dispositivo conectado.
+2. **iOS:**
 
-Possíveis Problemas e Soluções
+   ```bash
+   react-native run-ios
+   ```
 
-Erro de dependência: Se encontrar erros durante a instalação das dependências, tente limpar o cache:
+   Certifique-se de ter um simulador iOS aberto ou um dispositivo conectado.
 
-npm cache clean --force # ou yarn cache clean
+## Possíveis Problemas e Soluções
 
-e reinstale:
+* **Erro de dependência:** Se encontrar erros durante a instalação das dependências, tente limpar o cache:
 
-npm install # ou yarn install
+   ```bash
+   npm cache clean --force # ou yarn cache clean
+   ```
 
-Problemas com o Android Studio: Certifique-se de que as variáveis de ambiente ANDROID_HOME e JAVA_HOME estejam configuradas corretamente.
+   e reinstale:
 
-Problemas com o Xcode: Certifique-se de ter o Xcode e as ferramentas de linha de comando instaladas e configuradas.
+   ```bash
+   npm install # ou yarn install
+   ```
 
-Conflitos de versão: Verifique as versões do Node.js, npm (ou yarn) e React Native especificadas no projeto (geralmente em um arquivo .nvmrc ou no package.json) e tente usar as mesmas versões.
+* **Problemas com o Android Studio:** Certifique-se de que as variáveis de ambiente `ANDROID_HOME` e `JAVA_HOME` estejam configuradas corretamente.
+
+* **Problemas com o Xcode:** Certifique-se de ter o Xcode e as ferramentas de linha de comando instaladas e configuradas.
+
+* **Conflitos de versão:** Verifique as versões do Node.js, npm (ou yarn) e React Native especificadas no projeto (geralmente em um arquivo `.nvmrc` ou no `package.json`) e tente usar as mesmas versões.
