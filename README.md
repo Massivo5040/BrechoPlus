@@ -46,7 +46,7 @@ As instruções a seguir dependem se o projeto usa Expo ou o React Native CLI.  
 1. Inicie o projeto:
 
    ```bash
-   expo start
+   npx expo start
    ```
 
 2. Um QR code será exibido no terminal. Escaneie-o com o aplicativo Expo Go no seu dispositivo móvel para executar o app.  Você também pode executar em um simulador iOS ou Android diretamente pelo Expo Dev Client.
