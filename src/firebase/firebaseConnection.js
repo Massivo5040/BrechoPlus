@@ -4,7 +4,7 @@ import { initializeAuth, getReactNativePersistence } from "firebase/auth";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyDcScnuAA4PZ4RFtOuqKtgJFei5A0vORNU",
+	apiKey: "sua key",
 	authDomain: "brechoplus-47fa2.firebaseapp.com",
 	projectId: "brechoplus-47fa2",
 	storageBucket: "brechoplus-47fa2.firebasestorage.app",
